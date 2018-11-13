@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 set -e
 
-npm i -g gitbook gitbook-cli
+npm install gitbook gitbook-cli
 
-gitbook build
+node_modules/.bin/gitbook build
