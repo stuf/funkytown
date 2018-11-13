@@ -1,0 +1,46 @@
+@import "variables";
+
+* {
+  border: solid 1px #f00;
+}
+
+body h1,
+body h2,
+body h3,
+body h4 {
+  font-family: $font-family-heading;
+}
+
+body .book.font-family-1,
+body .book-summary {
+  font-family: $font-family-base;
+}
+
+body .markdown-section code {
+  font-family: $font-family-monospace;
+  font-variant-ligatures: common-ligatures;
+}
+
+.alert--page-is-wip {
+  background: var(--alert-bg);
+  padding: 1rem 2rem;
+  text-align: center;
+  background-image: repeating-linear-gradient(
+    45deg,
+    $alert-bg,
+    $alert-bg 10px,
+    $alert-bg-alt 10px,
+    $alert-bg-alt 20px);
+  border-bottom: $alert-border;
+  border-top: $alert-border;
+  margin-bottom: 1rem;
+  font-weight: bold;
+}
+
+.alert--page-is-wip em {
+  border-bottom: solid 3px #000;
+  font-style: normal;
+}
+
+
+

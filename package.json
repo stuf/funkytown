@@ -5,8 +5,18 @@
   "author": "Stefan Rimaila <stefan@rimaila.fi>",
   "license": "MIT",
   "scripts": {
-    "start": "gitbook serve",
+    "start": "concurrently npm:start:book npm:start:browsersync npm:start:styles",
+    "start:book": "gitbook serve",
+    "start:styles": "npm run watch:sass",
+    "start:browsersync": "browser-sync _book -w",
+    "build": "gitbook build book",
     "build:pre": "gitbook install",
-    "build": "gitbook build book"
+    "build:sass": "sass styles/website.scss book/_styles/website.css",
+    "watch:sass": "sass --watch styles/website.scss _book/_styles/website.css"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.26.3",
+    "concurrently": "^4.0.1",
+    "sass": "^1.14.3"
   }
 }
