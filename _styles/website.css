@@ -1,0 +1,58 @@
+:root {
+  --color-green: #a3be8c;
+  --color-green-dark: #778B66;
+  --color-red: #bf616a;
+  --color-red-dark: #8C474E;
+
+  --text-primary: rgba(0, 0, 0, 0.87);
+  --text-secondary: rgba(0, 0, 0, 0.54);
+
+  --divider: rgba(0, 0, 0, 0.2);
+
+  --alert-bg: #FFEA00;
+  --alert-bg-alt: #fff;
+
+  --alert-border: solid 2px var(--alert-bg);
+
+  /* --font-family-base: 'Open Sans', sans-serif; */
+  --font-family-base: 'Work Sans', sans-serif;
+  --font-family-heading: 'Josefin Sans', sans-serif;
+  --font-family-monospace: 'Fira Mono', 'Source Core Pro', Menlo, monospace;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body h1,
+body h2,
+body h3,
+body h4 {
+  font-family: var(--font-family-heading);
+}
+
+body .book.font-family-1,
+body .book-summary {
+  font-family: var(--font-family-base);
+}
+
+body .markdown-section code {
+  font-family: var(--font-family-monospace);
+  font-variant-ligatures: common-ligatures;
+}
+
+.alert--page-is-wip {
+  background: var(--alert-bg);
+  padding: 1rem 2rem;
+  text-align: center;
+  background-image: repeating-linear-gradient( 45deg, var(--alert-bg), var(--alert-bg) 10px, var(--alert-bg-alt) 10px, var(--alert-bg-alt) 20px );
+  border-bottom: var(--alert-border);
+  border-top: var(--alert-border);
+  margin-bottom: 1rem;
+  font-weight: bold;
+}
+
+.alert--page-is-wip em {
+  border-bottom: solid 3px #000;
+  font-style: normal;
+}

@@ -1,0 +1,22 @@
+{% extends template.self %}
+
+{% block head %}
+    {{ super() }}
+
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans|Work+Sans|Fira+Mono" rel="stylesheet">
+{% endblock %}
+
+{% block body %}
+  {{ super() }}
+{% endblock %}
+
+{% block page %}
+  {{ super() }}
+{% endblock %}
+
+{% block search_results %}
+  {% if page.wip %}
+    {% include "website/alert-wip.html" %}
+  {% endif %}
+  {{ super() }}
+{% endblock %}
