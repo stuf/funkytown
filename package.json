@@ -8,11 +8,11 @@
     "start": "concurrently npm:start:book npm:start:browsersync npm:start:styles",
     "start:book": "gitbook serve",
     "start:styles": "npm run watch:sass",
-    "start:browsersync": "browser-sync _book -w",
-    "build": "gitbook build book",
+    "start:browsersync": "node scripts/dev.js",
+    "build": "gitbook build",
     "build:pre": "gitbook install",
     "build:sass": "sass styles/website.scss book/_styles/website.css",
-    "watch:sass": "sass --watch styles/website.scss _book/_styles/website.css"
+    "watch:sass": "scripts/watch-styles"
   },
   "devDependencies": {
     "browser-sync": "^2.26.3",

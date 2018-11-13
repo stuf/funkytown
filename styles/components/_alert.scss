@@ -1,0 +1,37 @@
+.alert {
+  // background: $alert-bg;
+  border-top: $alert-border;
+  border-bottom: $alert-border;
+  font-weight: $alert-font-weight;
+  background: transparent;
+
+  // background: repeating-linear-gradient(
+  //   -45deg,
+  //   $alert-bg,
+  //   $alert-bg 10px,
+  //   $alert-bg-alt 10px,
+  //   $alert-bg-alt 20px
+  // );
+
+  margin-bottom: $element-space;
+}
+
+.alert em {
+  font-style: normal;
+  border-bottom: solid 3px #000;
+  font-weight: 900;
+}
+
+.alert {
+  display: flex;
+  align-items: center;
+}
+
+.alert > .icon {
+
+}
+
+.alert > span {
+  flex: 1;
+  padding-left: 1rem;
+}

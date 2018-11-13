@@ -1,0 +1,13 @@
+.markdown-section blockquote {
+  // border: solid 2px #f00;
+  border: 0;
+  width: 80%;
+  margin-left: auto;
+  margin-top: auto;
+  font-size: 3rem;
+  font-style: italic;
+
+  *:last-child {
+    margin-bottom: 0;
+  }
+}

@@ -26,3 +26,17 @@ wip: true
     - Task runners and bundlers
     - Babel and a short history on transpiling code
 
+## Create a new project
+
+  - find a suitable spot to plop your beginning
+
+## First lines of code
+
+## Setting up code compilation
+
+## Re: First lines of code
+
+## Commit!
+
+## Lore
+

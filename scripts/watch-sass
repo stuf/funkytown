@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+set -e
+
+SASS=node_modules/.bin/sass
+
+command $SASS --watch styles/website.scss _book/_styles/website.css

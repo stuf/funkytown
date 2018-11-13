@@ -1,0 +1,9 @@
+#!/usr/bin/env node
+const bs = require('browser-sync').create();
+
+bs.init({
+  open: false,
+  server: {
+    baseDir: '_book',
+  },
+});

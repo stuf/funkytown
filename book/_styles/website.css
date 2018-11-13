@@ -1,26 +1,30 @@
-:root {
-  --color-green: #a3be8c;
-  --color-green-dark: #778B66;
-  --color-red: #bf616a;
-  --color-red-dark: #8C474E;
+/* $font-family-base: 'Open Sans', sans-serif; */
+body .book.font-family-1 {
+  font-family: "Work Sans", sans-serif;
+}
 
-  --text-primary: rgba(0, 0, 0, 0.87);
-  --text-secondary: rgba(0, 0, 0, 0.54);
-
-  --divider: rgba(0, 0, 0, 0.2);
-
-  --alert-bg: #FFEA00;
-  --alert-bg-alt: #fff;
-
-  --alert-border: solid 2px var(--alert-bg);
-
-  /* --font-family-base: 'Open Sans', sans-serif; */
-  --font-family-base: 'Work Sans', sans-serif;
-  --font-family-heading: 'Josefin Sans', sans-serif;
-  --font-family-monospace: 'Fira Mono', 'Source Core Pro', Menlo, monospace;
+.page-inner .markdown-section h1, .page-inner .markdown-section h2, .page-inner .markdown-section h3 {
+  font-family: "Josefin Sans", sans-serif;
+}
+.page-inner .markdown-section code {
+  font-family: "Fira Code", "Source Core Pro", Menlo, monospace;
 }
 
 * {
   box-sizing: border-box;
 }
 
+.alert {
+  border-top: solid 2px #FFEB3B;
+  border-bottom: solid 2px #FFEB3B;
+  font-weight: bold;
+  background: transparent;
+  margin-bottom: 4rem;
+}
+
+.alert em {
+  font-style: normal;
+  border-bottom: solid 3px #000;
+}
+
+/*# sourceMappingURL=website.css.map */
