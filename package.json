@@ -1,0 +1,19 @@
+{
+  "name": "funkytown",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Stefan Rimaila <stefan@rimaila.fi>",
+  "license": "MIT",
+  "scripts": {
+    "start": "gitbook serve",
+    "build:pre": "gitbook install",
+    "build": "gitbook build book"
+  },
+  "devDependencies": {
+    "fsevents": "^2.0.1",
+    "gh-pages": "^2.0.1",
+    "gitbook": "^3.2.3",
+    "gitbook-cli": "^2.3.2",
+    "surge": "^0.20.1"
+  }
+}

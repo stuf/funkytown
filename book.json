@@ -1,0 +1,14 @@
+{
+  "root": "./book",
+  "title": "Funkytown",
+  "description": "Learn how to create a JavaScript project from scratch to completion",
+  "author": "Stefan Rimaila <stefan@rimaila.fi>",
+  "structure": {
+    "readme": "README.md",
+    "summary": "SUMMARY.md",
+    "glossary": "GLOSSARY.md"
+  },
+  "styles": {
+    "website": "_styles/website.css"
+  }
+}
