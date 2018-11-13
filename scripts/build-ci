@@ -3,6 +3,5 @@ set -e
 
 npm install gitbook gitbook-cli
 
-npm run build:sass
-
-node_modules/.bin/gitbook build
+scripts/build-sass
+scripts/build-book

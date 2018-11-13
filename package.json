@@ -9,10 +9,9 @@
     "start:book": "gitbook serve",
     "start:styles": "npm run watch:sass",
     "start:browsersync": "node scripts/dev.js",
-    "build": "gitbook build",
-    "build:pre": "gitbook install",
-    "build:sass": "sass styles/website.scss book/_styles/website.css",
-    "watch:sass": "scripts/watch-styles"
+    "build": "scripts/build-book",
+    "build:sass": "scripts/build-sass",
+    "watch:sass": "scripts/watch-sass"
   },
   "devDependencies": {
     "browser-sync": "^2.26.3",
