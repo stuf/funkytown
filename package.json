@@ -5,7 +5,9 @@
   "author": "Stefan Rimaila <stefan@rimaila.fi>",
   "license": "MIT",
   "scripts": {
-    "start": "gitbook serve"
+    "start": "gitbook serve",
+    "build:pre": "gitbook install",
+    "build": "gitbook build"
   },
   "devDependencies": {
     "fsevents": "^2.0.1",
