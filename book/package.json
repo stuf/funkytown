@@ -9,11 +9,5 @@
     "build:pre": "gitbook install",
     "build": "gitbook build"
   },
-  "devDependencies": {
-    "fsevents": "^2.0.1",
-    "gh-pages": "^2.0.1",
-    "gitbook": "^3.2.3",
-    "gitbook-cli": "^2.3.2",
-    "surge": "^0.20.1"
-  }
+  "devDependencies": {}
 }
