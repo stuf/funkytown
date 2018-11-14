@@ -1,7 +1,11 @@
 #!/usr/bin/env bash
 set -e
 
+echo "Installing gitbook, gitbook-cli"
 npm install gitbook gitbook-cli
 
+echo "Running \`scripts/build-sass\`"
 scripts/build-sass
+
+echo "Running \`scripts/build-book\`"
 scripts/build-book
