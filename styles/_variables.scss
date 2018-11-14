@@ -8,6 +8,8 @@ $text-secondary: rgba(0, 0, 0, 0.54);
 
 $divider: rgba(0, 0, 0, 0.2);
 
+$color-divider: $divider;
+
 //
 
 $element-space: 4rem;
@@ -20,9 +22,8 @@ $alert-font-weight: bold;
 
 $alert-border: solid 2px $alert-bg;
 
-/* $font-family-base: 'Open Sans', sans-serif; */
-$font-family-base: 'Roboto', sans-serif;
+$font-family-base: 'Work Sans', sans-serif;
 $font-family-heading: 'Work Sans', sans-serif;
 $font-family-monospace: 'Fira Code', 'Source Core Pro', Menlo, monospace;
 
-$font-family-quote: $font-family-heading;
+$font-family-quote: 'Lora', serif;

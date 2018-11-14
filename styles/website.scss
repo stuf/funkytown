@@ -1,6 +1,11 @@
 @import "variables";
 @import "typography";
 @import "base";
+@import "mixins/index";
 @import "content/index";
 
 @import "components/alert";
+
+* {
+  // border: solid 1px #f00;
+}
